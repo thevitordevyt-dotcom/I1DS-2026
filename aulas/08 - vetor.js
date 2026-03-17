@@ -72,3 +72,10 @@ console.table(dinos);
 // Alterar o valor de um elemento a partir do Indice
 dinos[1] = "Anquilossauro";
 console.table(dinos);
+
+// slice -> Criar uma copia do vetor
+let novalista = dinos.slice(); // Copia completa do vetor dinos
+console.table(dinos);
+
+let listaparcial = dinos.slice(1,3); //Cria uma copia  do vetor dinos a partir do indice onde começa e onde termina a copia
+console.table(listaparcial);
