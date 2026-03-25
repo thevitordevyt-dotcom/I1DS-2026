@@ -43,4 +43,9 @@ for (let i = 0; i < numeros.length; i++) {
     console.log(soma)
 }
 
+for (let index = 0; linha < matriz.length; linha++) 
+for (let coluna = 0 ;coluna < matriz[0].length; coluna++)
+    console.log("Matriz[," ,linha ,",",coluna, "]=",matriz[linha][coluna]);
+
+
 
